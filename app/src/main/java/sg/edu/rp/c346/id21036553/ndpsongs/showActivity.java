@@ -62,7 +62,7 @@ public class showActivity extends AppCompatActivity {
 
 
 //            public void onItemClick(AdapterView<?> parent, View view, int
-//                    position, long identity) {
+//                   pposition, long identity) {
 
 
 

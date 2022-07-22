@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".showActivity"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn5Star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show all songs with 5 Stars"
+        android:fontFamily="@font/merriweather_bold"/>
+
+
+    <ListView
+        android:id="@+id/lvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/merriweather_bold"/>
+</LinearLayout>

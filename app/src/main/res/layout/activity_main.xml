@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_bold"
+            android:gravity="center_horizontal"
+            android:text="Song Title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="19dp"/>
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter song title here"
+            android:fontFamily="@font/merriweather_bold"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/tvSingers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="Singers"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etSingers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter singers' name here"
+            android:fontFamily="@font/merriweather_bold"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="Year"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter year of release here"
+            android:fontFamily="@font/merriweather_bold"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvStars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_bold"
+            android:paddingTop="25dp"
+            android:text="Stars"
+            android:textColor="#000000"
+            android:textSize="19dp"
+          />
+
+        <RadioGroup
+            android:id="@+id/rgroupStars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="2" />
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="3" />
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="5" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="INSERT"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="show list"
+            android:fontFamily="@font/merriweather_bold"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
